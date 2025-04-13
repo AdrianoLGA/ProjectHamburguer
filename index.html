@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MousBurgue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <main class="personagens">
+        <div class="personagem selecionado">
+            <picture>
+                <source srcset="./src/imagens/hamb-cebola.png" media="(min-width: 768px)">
+                <img class="imagem" src="./src/imagens/bg-cyberstorm-mobile.png" alt="Personagem Cyberstorm">
+            </picture>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Hamburger </h2>
+                <p class="descricao">hamburger </p>
+            </div>
+            <div class="personagem">
+                <picture>
+                    <source srcset="./src/imagens/Hamb-orion.png" media="(min-width: 768px)">
+                    <img class="imagem" src="./src/imagens/hamb-Orion-Mobile.png" alt="Orion">
+                </picture>
+                <div class="conteudo">
+                    <h2 class="nome-hamb">Hamburger </h2>
+                    <p>hamburger </p>
+                </div>
+                <div class="personagem">
+                    <picture>
+                        <source srcset="./src/imagens/hamb-triplo.png" media="(min-width: 768px)">
+                        <img class="imagem" src="./src/imagens/hamb-triplo-mobile.png" alt="hamb-cebola">
+                    </picture>
+                    <div class="conteudo">
+                        <h2 class="nome-hamb">Hamburger </h2>
+                        <p>hamburger </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <ul class="botoes">
+        <li>
+            <button class="botao hamb selecionado">
+                <img src="./src/imagens/icon-hamb-cebola.png" alt="Ícone Cebola">
+            </button>
+        </li>
+        <li>
+            <button class="botao Orion">
+                <img src="./src/imagens/icon-hamb-orion.png" alt="Ícone Orion">
+            </button>
+        </li>
+        <li>
+            <button class="botao triplo">
+                <img src="./src/imagens/icon-hamb-triplo.png" alt="Ícone Cebola">
+            </button>
+        </li>
+    </ul>
+
+    <script src="./src/js/index.js"></script>
+
+</body>
+
+</html>
